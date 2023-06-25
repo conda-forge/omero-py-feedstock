@@ -1,11 +1,11 @@
-About omero-py
-==============
+About omero-py-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/omero-py-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.openmicroscopy.org/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/omero-py-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python bindings to the OMERO.blitz server
 
