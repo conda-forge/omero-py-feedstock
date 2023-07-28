@@ -23,6 +23,7 @@ requirements:
   run:
     - appdirs
     - future
+    - matplotlib-base
     - numpy
     - pillow
     - python >=3.6
