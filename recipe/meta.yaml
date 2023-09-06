@@ -26,6 +26,7 @@ requirements:
     - matplotlib-base
     - numpy
     - pillow
+    - portalocker
     - python >=3.6
     - pywin32-on-windows
     - pyyaml
