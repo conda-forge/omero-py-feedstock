@@ -1,5 +1,5 @@
 {% set name = "omero-py" %}
-{% set version = "5.16.1" %}
+{% set version = "5.17.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/omero-py-{{ version }}.tar.gz
-  sha256: 2362a5add0e3ddf10a0ca5fa8393e0f0ad1a414cd4af4bd034def9d04ef95b24
+  sha256: 138120adfb500b6a3c85fd2160aefd10371f8080486d18231a6b6a55551e7aa1
 
 build:
   entry_points:
