@@ -1,3 +1,5 @@
+${PYTHON} -m pip install . -vv --no-deps --ignore-installed
+
 mkdir OMERO.java-5.6.10-ice36
 unzip $SRC_DIR/OMERO.java-5.6.10-ice36.zip -d $PREFIX/opt/OMERO.java-5.6.10-ice36
 

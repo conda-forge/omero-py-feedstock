@@ -14,8 +14,6 @@ source:
 build:
   entry_points:
     - omero=omero.main:main
-  script:
-    - {{ PYTHON }} -m pip install . -vv --no-deps --ignore-installed
   number: 1
   noarch: python
 
