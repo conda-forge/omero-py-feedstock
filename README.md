@@ -148,6 +148,6 @@ Feedstock Maintainers
 =====================
 
 * [@goanpeca](https://github.com/goanpeca/)
+* [@jburel](https://github.com/jburel/)
 * [@joshmoore](https://github.com/joshmoore/)
-* [@sbesson](https://github.com/sbesson/)
 
