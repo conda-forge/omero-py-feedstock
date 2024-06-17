@@ -24,7 +24,7 @@ requirements:
     - appdirs
     - future
     - matplotlib-base
-    - numpy
+    - numpy <2
     - pillow
     - portalocker
     - python >=3.6
