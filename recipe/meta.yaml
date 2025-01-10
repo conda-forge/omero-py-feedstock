@@ -20,12 +20,13 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - appdirs
     - future
     - matplotlib-base
     - numpy <2
-    - pillow
+    - pillow >=10
     - portalocker
     - python >={{ python_min }}
     - pywin32-on-windows
