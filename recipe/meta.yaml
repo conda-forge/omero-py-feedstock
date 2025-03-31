@@ -1,5 +1,5 @@
 {% set name = "omero-py" %}
-{% set version = "5.19.6" %}
+{% set version = "5.19.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: eb415e817610049c71e0e53566dd0daba0022f23c1ce3b2f0c83f25040c690d4
+  sha256: 7442d182f2c95881aeb4bafc0a0d01df4ec57e6f39ac088d6f93d5a9a25e6e95
 
 build:
   entry_points:
@@ -26,7 +26,7 @@ requirements:
     - future
     - matplotlib-base
     - numpy <2
-    - pillow >=10
+    - pillow >=10.0.0
     - portalocker
     - python >={{ python_min }}
     - pywin32-on-windows
