@@ -13,7 +13,7 @@ build:
   entry_points:
     - omero=omero.main:main
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   noarch: python
 
 requirements:
@@ -25,7 +25,7 @@ requirements:
     - appdirs
     - future
     - matplotlib-base
-    - numpy <2
+    - numpy <3
     - pillow >=10.0.0
     - portalocker
     - python >={{ python_min }}
